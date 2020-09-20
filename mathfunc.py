@@ -25,6 +25,9 @@ class mathfunc:
             
         self.equation = equation
 
+    def __str__(self):
+        return self.equation
+
     def evaluate(self, value):
         
         '''

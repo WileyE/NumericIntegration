@@ -10,6 +10,8 @@ print(func.evaluate(1))
 #integrating on a given interval using each of the 3 methods
 #must provide: start of integration, end of integration, number of points in the discretization
 
+#test print
+print(func)
 
 #Midpoint Rule
 print(f'The result of the integral using the Midpoint Rule is: {func.midpoint_rule(0,1,10)}')
